@@ -1,0 +1,13 @@
+⚠ Possíveis problemas: 
+Falta de instalação da biblioteca Adafruit_DHT
+
+pip install Adafruit_DHT
+
+Dependência do modelo do sensor
+
+DHT_SENSOR = Adafruit_DHT.DHT22
+
+Necessidade de permissões GPIO no Raspberry Pi
+
+sudo python app.py
+
