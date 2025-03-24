@@ -1,6 +1,3 @@
-# Projeto: Monitor de Temperatura e Umidade com Raspberry Pi
-# Autor: Seu Nome
-# Descrição: Script para coletar dados do sensor DHT11/DHT22 e exibir via Flask
 
 import Adafruit_DHT
 from flask import Flask, jsonify
